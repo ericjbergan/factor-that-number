@@ -20,7 +20,7 @@ public class Main {
             try {
                 numberToFactor = Integer.valueOf(enteredString);
             } catch (Exception e) {
-                continueFactoring = false;
+                continue;
             }
 
             // calculate the factors and concatenate to 'factors' variable for output
